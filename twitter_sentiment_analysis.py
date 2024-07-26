@@ -98,6 +98,7 @@ twitter_data['stemmed_content'] = twitter_data['text'].apply(stemming)
 
 twitter_data.head()
 
+# mounting the Google Drive
 from google.colab import drive
 drive.mount('/content/drive')
 
